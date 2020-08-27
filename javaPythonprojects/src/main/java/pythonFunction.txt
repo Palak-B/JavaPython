@@ -1,0 +1,1 @@
+def printJson(bids):  print(bids)

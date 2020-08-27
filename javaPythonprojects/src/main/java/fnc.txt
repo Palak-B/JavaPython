@@ -1,0 +1,30 @@
+import sys
+import ast
+import json
+from json import loads
+import pandas as pd
+
+import json
+def printSupplierCoverage(bids):
+
+    bidsDictionary = json.loads(bids)
+    bidsDictionary
+    itemTermValues = bidsDictionary['itemTermValues']
+    itemTermValues
+    df = pd.DataFrame(itemTermValues)
+    df
+
+    supplierCoverage = dict()
+    for supplier in df.submitFor:
+        if(supplier in supplierCoverage.keys()):
+            supplierCoverage[supplier]=supplierCoverage[key]+1
+        else:
+            supplierCoverage[supplier]=1
+
+    print(supplierCoverage)
+
+    for x in supplierCoverage.keys():
+        f.write(x +":")
+        f.write(str(supplierCoverage[x]))
+
+    f.close()

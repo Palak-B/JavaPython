@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="com.github.yishenggudou:jython-compile-maven-plugin:1.4" type="repository">
+    <properties maven-id="com.github.yishenggudou:jython-compile-maven-plugin:1.4" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/yishenggudou/jython-compile-maven-plugin/1.4/jython-compile-maven-plugin-1.4.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/maven/maven-plugin-api/2.0/maven-plugin-api-2.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/python/jython-standalone/2.7.1b3/jython-standalone-2.7.1b3.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/maven/maven-artifact/2.2.1/maven-artifact-2.2.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/plexus/plexus-utils/1.5.15/plexus-utils-1.5.15.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/commons-io/commons-io/2.0.1/commons-io-2.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
